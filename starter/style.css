@@ -24,15 +24,7 @@ textarea {
 .container{
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-  background-color: #06aed5;
-  margin-bottom: 12px;
-};
-
-
- 
-
+}
 
 .description {
   white-space: pre-wrap;
@@ -44,9 +36,16 @@ textarea {
 }
 
 #row {
+  
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+}
+
+.row {
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .hour {
