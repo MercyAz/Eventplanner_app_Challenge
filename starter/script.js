@@ -9,7 +9,7 @@ var time = moment().format('h')
 console.log (time);
 
 var timeblocks = $('.hour')
-var Userinput = $('#textarea').text('textarea.innerText').text()
+var Userinput = $('#textarea').text('textarea.innerText')
 console.log(Userinput)
 for (var item of timeblocks) 
 
